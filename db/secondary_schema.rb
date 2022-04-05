@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_04_05_084011) do
+ActiveRecord::Schema[7.1].define(version: 2022_04_05_084011) do
   create_table "appointments", force: :cascade do |t|
     t.bigint "patient_id", null: false
     t.bigint "physician_id", null: false
